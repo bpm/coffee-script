@@ -1,20 +1,20 @@
 {
   "name": "coffee-script",
-  "version": "1.1.1.2",
-  "description":  "Unfancy JavaScript",
-  "author":       "Jeremy Ashkenas",
-  "homepage":     "http://coffeescript.org",
-  
+  "version":  "1.1.1.2",
+  "summary":  "Unfancy JavaScript",
+  "author":   "Jeremy Ashkenas",
+  "homepage": "http://coffeescript.org",
+
   "directories": {
     "lib": []
   },
-  
+
   "bpm:build": {
     "bpm_libs.js": {
       "directories": []
     }
   },
-  
+
   "bpm:provides": {
     "format:coffee": {
       "mime:default": "application/javascript",
