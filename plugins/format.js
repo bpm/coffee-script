@@ -13624,6 +13624,6 @@ CoffeeScript = function() {
 
 /*globals CoffeeScript */
 BPM_PLUGIN.compileFormat = function(code, context, filename) {
-  return CoffeeScript.compile(code, { filename: filename });
+  return CoffeeScript.compile(code, { filename: filename, bare: true });
 };
 
